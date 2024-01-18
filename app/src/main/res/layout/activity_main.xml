@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_marginStart="140sp"
+        android:layout_marginTop="60sp"
+        android:textColor="#192250"
+        android:textSize="23sp"
+        android:text="calculatrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+
+    <ImageView
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="150sp"
+        android:layout_width="100dp"
+        android:layout_height="100sp"
+        android:src="@drawable/img1" />
+    <TextView
+        android:layout_marginStart="170sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#192250"
+        android:textSize="23sp"
+        android:text="@string/tail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/taille"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150sp"
+        android:layout_marginTop="20sp"
+        android:contentDescription="@string/desc"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_marginLeft="170sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#192250"
+        android:textSize="23sp"
+        android:text="@string/poids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/poids"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150sp"
+        android:layout_marginTop="20sp"
+        android:contentDescription="@string/des"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/btn"
+         android:text="@string/calculer"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="40sp"
+        android:backgroundTint="#1C6D78"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="160sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#1C6D78"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>

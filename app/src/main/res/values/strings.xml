@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="calculer"> calculer</string>
+    <string name="tail"> taille</string>
+    <string name="poids"> poids</string>
+    <string name="des"> poids</string>
+    <string name="desc"> poids</string>
+</resources>
